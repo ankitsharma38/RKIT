@@ -44,3 +44,48 @@ A single integer:
 ## 📘 Examples
 
 ### Example 1
+
+Input:
+5
+1 2 -3 4 -4
+
+Output:
+3
+
+**Explanation:**  
+Day 1: 1  
+Day 2: 1 + 2 = 3  
+Day 3: 3 + (-3) = 0 ✅ → Ledger balanced on day 3
+
+---
+
+### Example 2
+Input:
+3
+1 2 3
+
+Output:
+-1
+
+**Explanation:**  
+Balance never becomes 0.
+
+---
+
+### Example 3
+Input:
+6
+5 -2 -3 2 -1 -1
+
+Output:
+3
+
+
+**Explanation:**  
+Day 1: 5  
+Day 2: 3  
+Day 3: 0 ✅
+
+---
+
+### Example
